@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         int radioButtonId = myRadioGroup.getCheckedRadioButtonId();
         selectedButton = findViewById(radioButtonId);
         values = selectedButton.getText().toString();
-        if(values.equals("1920")){
+        if(values.equals("Google")){
             mark = mark + 5;
         }
         Intent first = new Intent(MainActivity2.this, MainActivity3.class);

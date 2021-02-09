@@ -21,15 +21,7 @@ public class MainActivity3 extends AppCompatActivity {
         mark = third.getIntExtra(MainActivity2.quizMark, 0);
         tv = findViewById(R.id.tv);
 
-        if(mark == 10){
-            tv.setText("Your Mark is 10");
-        }
-        else if(mark == 5){
-            tv.setText("Your Mark is 5");
-        }
-        else {
-            tv.setText("Your Mark is 0");
-        }
+        tv.setText("Your get"+ " " + mark + " " + "out 10");
 
     }
 
